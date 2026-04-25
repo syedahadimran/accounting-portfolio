@@ -1,8 +1,12 @@
+import Header from "./sections/Header/Header";
+import Hero from "./sections/Hero/Hero";
+
 function App() {
   return (
-    <div>
-      <h1>Accounting Portfolio Website</h1>
-    </div>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 }
 
